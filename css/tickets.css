@@ -1,0 +1,22 @@
+table {
+  width: 50% !important;
+  margin: 30px auto 30px auto;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.location-table {
+  margin-top: 100px;
+}
+
+.ticket-content {
+  Height: 600px;
+}
+
+footer {
+  height: 200px !important;
+}

@@ -1,0 +1,42 @@
+.border{
+  border: 1px solid #000;
+}
+
+.nav-links {
+  margin: 0px 15px 0px 15px;
+}
+
+/*
+  Content
+*/ 
+
+.content {
+  Height: 800px;
+}
+
+h1.display-3 {
+  text-align: center;
+}
+
+p.center {
+  text-align: center;
+}
+
+/*
+  Footer
+*/
+
+footer {
+  color: #fff;
+  height: 180px;
+}
+
+.footer-container {
+  padding-top: 10px;
+}
+
+.col {
+  width: 50%;
+  height: 100px;
+  float: left;
+}
