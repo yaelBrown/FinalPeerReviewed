@@ -1,0 +1,28 @@
+Notes/Tasks for YaelFest final website project
+
+  Find a typeface for logo
+  Add a background video for the jumbotron
+  Change the color schemes
+
+
+  Rubric
+    6 Pages
+
+    Use 2 font colors
+    One instane of italics
+    Horizontal rule (Horizontal section of the site to seperate stuff)
+    Have an ol and ul
+    Visible or invisible table somewhere
+    well written external css
+
+    2 regular images
+    2 hyperlinked images
+
+    mailto links
+    4 links to other websites
+    same page link (use of anchor tags)
+
+    good ass carp
+
+    Well written content, no typos. 
+    Valid copyright statement with symbol
