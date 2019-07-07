@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Rock+Salt|VT323" rel="stylesheet">
 
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="./css/style.css">
@@ -16,8 +19,8 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">YaelFest</a>
+    <nav class="navbar sticky-top navbar-dark bg-purple">
+      <a class="navbar-brand yaelfest" href="index.html">YaelFest</a>
       <span class="navbar-text">
         <a class="nav-links" href="index.html">Home</a> 
         <a class="nav-links" href="schedule.html">Schedule</a>
@@ -25,6 +28,7 @@
       </span>
     </nav>
 
+    <div class="content">
     <!-- Order tickets table -->
     <div class="ticket-content">
       <h4>Purchase Tickets</h4>
@@ -33,42 +37,48 @@
           <tr>
             <th>Admission</th>
             <th>Price</th>
-            <th></th>
+            <th>Quantity</th>
+            <th>Purchase</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>General</td>
             <td>$200.00</td>
+            <td><textarea class="form-control" id="exampleTextarea" rows="1" cols="1"></textarea></td>
             <td><button type="button" class="btn btn-light btn-sm">Buy Now</button></td>
           </tr>
           <tr>
             <td>VIP</td>
             <td>$600.00</td>
+            <td><textarea class="form-control" id="exampleTextarea" rows="1" cols="1"></textarea></td>
             <td><button type="button" class="btn btn-light btn-sm">Buy Now</button></td>
           </tr>
         </tbody>
       </table>
-
 
       <!-- Location Information -->
       <table class="table location-table">
         <tbody>
           <tr>
             <th>When:</th>
-            <td>July 5th-6th, 2019</td>
+            <td class="italic">July 5th-6th, 2019</td>
           </tr>
           <tr>
             <th>Where:</th>
-            <td>124 Elm Street<br>
+            <td class="italic">124 Elm Street<br>
             Appleton, CA.</td>
           </tr>
         </tbody>
       </table>
+
+      <!-- Old Ladies DJ Pic -->
+      <img class="oldLadies" src="./img/djpic1.jpg">
+      
     </div> <!-- ticket-content -->
 
     <!-- Footer -->
-    <footer class="bg-dark">
+    <footer class="bg-purple">
       <div class="row">
         <div class="container footer-container">
           <div class="col">
@@ -79,8 +89,9 @@
           </div>
           <div class="col">
             <h5>HTML Validation</h5>
-            <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fnova.umuc.edu%2F~ct385a25%2FfinalRoughDraft%2Ftickets.html"><p>HTML</p></a>
+            <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fnova.umuc.edu%2F~ct385a25%2FfinalRoughDraft%2Findex.html"><p>HTML</p></a>
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fnova.umuc.edu%2F~ct385a25%2Fexercise2%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><p>CSS</p></a>
+            <p>&#169; Yael Brown 3.10.19</p>
           </div>
         </div>
       </div>

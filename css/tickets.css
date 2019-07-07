@@ -1,6 +1,6 @@
 table {
   width: 50% !important;
-  margin: 30px auto 30px auto;
+  margin: 30px auto 0px auto;
 }
 
 h4 {
@@ -14,9 +14,15 @@ h4 {
 }
 
 .ticket-content {
-  Height: 600px;
+  Height: 500px;
 }
 
 footer {
   height: 200px !important;
+}
+
+.oldLadies {
+  margin: 0px auto 0px auto;
+  width: 50%;
+  display: block;
 }

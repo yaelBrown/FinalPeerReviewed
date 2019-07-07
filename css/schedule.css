@@ -7,3 +7,9 @@ h4 {
   margin-top: 10px;
   text-align: center;
 }
+
+.marshmellow-pic {
+  margin: 0px auto 0px auto;
+  width: 50%;
+  display: block;
+}

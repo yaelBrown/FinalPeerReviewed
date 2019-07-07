@@ -6,12 +6,32 @@
   margin: 0px 15px 0px 15px;
 }
 
+.yaelfest {
+  font-family: 'Rock Salt', cursive;
+}
+
+.bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
 /*
   Content
 */ 
 
+body {
+  font-family: 'Major Mono Display', monospace;
+  background: #353866 !important;
+  color: #fff;
+}
+
 .content {
-  Height: 800px;
+  Height: auto;
+  padding: 30px;
+  z-index: 5;
 }
 
 h1.display-3 {
@@ -22,6 +42,15 @@ p.center {
   text-align: center;
 }
 
+p {
+  font-family: 'VT323', monospace;
+  color: #d0c9d8;
+}
+
+.white-text {
+  color: #fff;
+}
+
 /*
   Footer
 */
@@ -29,6 +58,9 @@ p.center {
 footer {
   color: #fff;
   height: 180px;
+  position: absolute;
+  width: 100vw;
+  margin-top: 300px;
 }
 
 .footer-container {
